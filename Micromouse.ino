@@ -16,7 +16,7 @@ void loop() {
   // put your main code here, to run repeatedly:
   motor1.run(BACKWARD);
   motor2.run(FORWARD);
-  Delay(5000);
+  delay(5000);
   motor1.run(FORWARD);
   motor2.run(FORWARD);
 
