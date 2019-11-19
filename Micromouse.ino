@@ -8,7 +8,7 @@ void setup() {
   // put your setup code here, to run once:
 motor1.setSpeed(120);
 motor2.setSpeed(120);  
-
+int delay=delay(5000)
 }
 
 void loop() {
