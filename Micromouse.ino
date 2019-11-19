@@ -1,7 +1,7 @@
 #include <AFMotor.h>
 
-
-
+//https://learn.adafruit.com/adafruit-motor-shield/using-dc-motors
+//https://learn.adafruit.com/adafruit-motor-shield/af-dcmotor-class
 AF_DCMotor motor1(1,MOTOR12_64KHZ);
 AF_DCMotor motor2(2,MOTOR12_64KHZ);
 void setup() {
