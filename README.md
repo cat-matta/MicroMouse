@@ -44,15 +44,19 @@ And that's it, simple right?
 
 Now if you want to copy someone else's code to your system (it doesn't update automatically), you would run:
 
-$ git pull
+$ git pull --no-edit
 
-And now you have the most recent code
+And now you have the most recent code, the --no-edit basically doesn't edit what you have
 
 
 NOTE NOTE NOTE
 ---------------
-When using git and editing files, everyone has to be on the SAME PAGE. Meaning that if I did a change and you didn't pull it and then you edit the code and push it, there will be conflict. SO PLEASE BE CAREFULL and ALWAYS RUN:
-$ git pull
+When using git and editing files, everyone has to be on the SAME PAGE. Meaning that if I did a change and you didn't pull it and then you edit the code and push it, there will be a conflict. Git pull will REPLACE WHATEVER you . SO PLEASE BE CAREFULL and ALWAYS RUN:
 
-AGAIN ALWAYS RUN THIS COMMAND SO THAT OUR FILES DON'T GET MESSED UP
+$ git pull --no-edit
+
+
+AGAIN ALWAYS RUN THIS COMMAND BEFORE YOU EDIT THE CODE SO THAT OUR FILES DON'T GET MESSED UP
+
+If in the case of you editing and forgeting to pull, what you could do is
 
