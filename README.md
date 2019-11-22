@@ -7,17 +7,20 @@ Here are the steps you need to clone my directory, you will need to download git
 First: 
 ------
 Declare yourself to git on your bash using:
+
 $ git config --global user.name "BLAH"
 $ git config --global user.email "BLAH@email"
 
 Now you can clone my directory, choose a place where you want it to locate
 For example I want this in the desktop, 2 ways:
 1. Just navigate to whatever directoy you want and open bash there
-2. Be fancy and open bash anywhere and do this
+2. Be fancy and open bash anywhere and do this:
+
       $ cd ./Desktop
      You are now in the desktop and you can run the command below
 
 Copy my directory using:
+
 $ git clone https://github.com/cat-matta/MicroMouse.git
 
 Yay, now you have my files!
