@@ -46,7 +46,7 @@ Now if you want to copy someone else's code to your system (it doesn't update au
 
 $ git pull --no-edit
 
-And now you have the most recent code, the --no-edit basically doesn't edit what you have
+And now you have the most recent code, the --no-edit basically doesn't edit what you have and nicely merges what we have
 
 
 NOTE NOTE NOTE
