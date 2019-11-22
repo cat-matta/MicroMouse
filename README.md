@@ -1,8 +1,8 @@
 # MicroMouse
 This is our repository for micromouse, we will write our code here.
 
-Here are the steps you need to clone my directory, you will need to download git on your computer and obv make an account on this website. The steps below are from the bash terminal (dont write $)
--------------------------------------------------------------------------------------------------------------------------------------------
+Here are the steps you need to clone my directory, you will need to download git on your computer and obv make an account on this website. The steps below are from the bash terminal (dont write $). There is also a GUI that you can use but I prefer the terminal better
+----------------------------------------------------------------------------------------------------------------------------------------
 
 First: 
 ------
@@ -24,7 +24,7 @@ Copy my directory using:
 $ git clone https://github.com/cat-matta/MicroMouse.git
 
 Yay, now you have my files!
------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
 
 So now is where the fun stuff starts:
 
