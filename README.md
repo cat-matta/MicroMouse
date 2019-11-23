@@ -9,6 +9,7 @@ First:
 Declare yourself to git on your bash using:
 
 $ git config --global user.name "BLAH"
+
 $ git config --global user.email "BLAH@email"
 
 Now you can clone my directory, choose a place where you want it to locate
@@ -37,7 +38,9 @@ This will show you the things that change
 Next up you wanna upload the code, so we start with:
 
 $ git add .   (notice there is a "DOT")
+
 $ git commit -m "PUT A MESSAGE HERE"    (its good for everyone to know what you did)
+
 $ git push
 
 And that's it, simple right?
