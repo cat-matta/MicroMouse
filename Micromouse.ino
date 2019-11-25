@@ -44,6 +44,7 @@ void loop() {
   motor1.run(BACKWARD); // flip directions
   motor2.run(BACKWARD);//MOTOR 2 runs opposite of motor 
  delay(5000);
+  //Test
  //GO LEFT AND RIGHT -- IN PROGRESS
    motor1.setSpeed(100);
   motor2.setSpeed(100);
