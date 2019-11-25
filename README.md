@@ -54,7 +54,7 @@ And now you have the most recent code, the --no-edit basically doesn't edit what
 
 NOTE NOTE NOTE
 ---------------
-When using git and editing files, everyone has to be on the SAME PAGE. Meaning that if I did a change and you didn't pull it and then you edit the code and push it, there will be a conflict. Git pull will REPLACE WHATEVER you . SO PLEASE BE CAREFULL and ALWAYS RUN:
+When using git and editing files, everyone has to be on the SAME PAGE. Meaning that if I did a change and you didn't pull it and then you edit the code and push it, there will be a conflict. Git pull will REPLACE WHATEVER you have. SO PLEASE BE CAREFULL and ALWAYS RUN:
 
 $ git pull --no-edit
 
