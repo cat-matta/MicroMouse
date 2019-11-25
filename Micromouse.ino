@@ -14,7 +14,6 @@ void loop() {
   
   // put your main code here, to run repeatedly:
   //GO FORWARD
-  delay(5000);
     motor1.run(BACKWARD); // flip directions
    motor2.run(BACKWARD);//MOTOR 2 runs opposite of motor 1
   delay(5000);
@@ -28,7 +27,7 @@ void loop() {
   delay(5000);
 //GO FORWARD AGAIN
    motor1.run(BACKWARD);//
-   motor2.run(BACKWARD);
+   motor2.run(FORWARD);
    delay(1500);
    motor1.run(RELEASE);
   motor2.run(RELEASE);
@@ -36,7 +35,7 @@ void loop() {
 //GO RIGHT
   motor1.setSpeed(-120);//opposite direction makes the motor turn?
   motor2.setSpeed(120); 
-  motor1.run(FORWARD);//
+  motor1.run(BACKWARD);//
   motor2.run(FORWARD);
  delay(1500);
 // Go BACKWARD
@@ -46,7 +45,7 @@ void loop() {
   motor2.run(BACKWARD);//MOTOR 2 runs opposite of motor 
  delay(5000);
  //GO LEFT AND RIGHT -- IN PROGRESS
- /*  motor1.setSpeed(100);
+   motor1.setSpeed(100);
   motor2.setSpeed(100);
    motor1.run(BACKWARD);//
    motor2.run(BACKWARD);
@@ -61,6 +60,5 @@ void loop() {
     motor1.run(FORWARD);//
   motor2.run(BACKWARD);
   delay(500);
-  */
  
 }
