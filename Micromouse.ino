@@ -27,16 +27,16 @@ void loop() {
   delay(5000);
 //GO FORWARD AGAIN
    motor1.run(BACKWARD);//
-   motor2.run(FORWARD);
+   motor2.run(BACKWARD);
    delay(1500);
    motor1.run(RELEASE);
   motor2.run(RELEASE);
   delay(1500);
-//GO RIGHT
+//GO RIGHT I think?
   motor1.setSpeed(-120);//opposite direction makes the motor turn?
   motor2.setSpeed(120); 
   motor1.run(BACKWARD);//
-  motor2.run(FORWARD);
+  motor2.run(BACKWARD);
  delay(1500);
 // Go BACKWARD
   motor1.setSpeed(120);
@@ -44,7 +44,8 @@ void loop() {
   motor1.run(BACKWARD); // flip directions
   motor2.run(BACKWARD);//MOTOR 2 runs opposite of motor 
  delay(5000);
-  //Test
+
+  /*
  //GO LEFT AND RIGHT -- IN PROGRESS
    motor1.setSpeed(100);
   motor2.setSpeed(100);
@@ -61,5 +62,6 @@ void loop() {
     motor1.run(FORWARD);//
   motor2.run(BACKWARD);
   delay(500);
+  */
  
 }
