@@ -1,5 +1,5 @@
-#include <AFMotor.h>
-#include <NewPing.h>
+#include <AFMotor.h> //You need the AdaFruit library
+#include <NewPing.h> //You can write NewPing and download the library
 //https://learn.adafruit.com/adafruit-motor-shield/using-dc-motors
 //https://learn.adafruit.com/adafruit-motor-shield/af-dcmotor-class
 //http://sribasu.com/programming-tutorials/creating-an-obstacle-avoiding-robot-with-arduino-adafruit-motor-shield-v1-and-ultra-sonic-sensor.html
@@ -51,9 +51,10 @@ if(cm<=10)
 {
   motor1.run(RELEASE);
   motor2.run(RELEASE);
-  /*motor1.run(FORWARD);//this makes it go in the same direction of the other one
-  motor2.run(FORWARD);*/
+  motor1.run(RELEASE);//this makes it go in the same direction of the other one
+  motor2.run(FORWARD);
 }
+
   /*delay(5000);
 //GO FORWARD AGAIN
    motor1.run(BACKWARD);//
