@@ -47,12 +47,10 @@ void loop() {
   
  // delay(5000);
 //GO BACKWARD
-if(cm<=10)
+if(cm<=10)//if distance less than 10cm, stop
 {
   motor1.run(RELEASE);
   motor2.run(RELEASE);
-  motor1.run(RELEASE);//this makes it go in the same direction of the other one
-  motor2.run(FORWARD);
 }
 
   /*delay(5000);
