@@ -31,7 +31,7 @@ void loop() {
    delayMicroseconds(2);
    digitalWrite(pingPin, LOW);
    pinMode(echoPin, INPUT);
-   duration = pulseIn(echoPin, HIGH);//THIS IS WHAT's Measuring our 
+   duration = pulseIn(echoPin, HIGH);//THIS IS WHAT's Measuring our distance?
 //   inches = microsecondsToInches(duration);
    cm = microsecondsToCentimeters(duration);
    //Serial.print(inches);
@@ -40,8 +40,8 @@ void loop() {
    Serial.print("cm");
    Serial.println();
    //delay(1);
-    motor1.run(BACKWARD); // flip directions
-   motor2.run(BACKWARD);//MOTOR 2 runs opposite of motor 1
+    motor1.run(BACKWARD); // Actually this is "forward"
+   motor2.run(BACKWARD);//
 //  delay(5000);
 //STOP the motor
   
