@@ -6,6 +6,7 @@ First things first:
 -------------------
 
 1)Make an account on this website. No brainer :D
+
 2)You will need to download git on your computer, or your computer already has it, you can check if you just run git in the terminal and get a list of [git] commands.
 
 
@@ -44,7 +45,7 @@ This will show you the things that change
 
 Next up you wanna upload the code, so we start with:
 
-$ git add [.]   (notice there is a "DOT")
+$ git add .  (notice there is a "DOT")
 
 $ git commit -m "PUT A MESSAGE HERE"    (its good for everyone to know what you did)
 
