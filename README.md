@@ -16,21 +16,15 @@ The steps below are from the terminal. There is also a GUI that you can download
 
 First: 
 ------
-Declare yourself to git on your bash using:
+Declare yourself to git on your terminal using:
 
 $ git config --global user.name "BLAH"
 
 $ git config --global user.email "BLAH@email"
 
-Now you can clone my directory, choose a place where you want it to locate
-For example I want this in the desktop, 2 ways:
-1. Just navigate to whatever directoy you want and open bash there
-2. Be fancy and open bash anywhere and do this:
+Now you can clone my directory, choose a place where you want the repository to live
 
-      $ cd ./Desktop
-     You are now in the desktop and you can run the command below
-
-Copy my directory using:
+And copy my directory using:
 
 $ git clone https://github.com/cat-matta/MicroMouse.git
 
