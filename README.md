@@ -2,6 +2,8 @@
 This is our repository for micromouse, we will write our code here.
 
 Here are the steps you need to clone my directory, 
+--------------------------------------------------
+
 First things first:
 -------------------
 
