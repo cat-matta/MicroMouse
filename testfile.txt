@@ -1,3 +1,8 @@
-this file is empty
-I'm just testing some different termnial configs.
-Don't mind me haha!
+Resources:
+
+Main file was gettign too cumbersome, so I added the links here:
+
+https://learn.adafruit.com/adafruit-motor-shield/using-dc-motors
+https://learn.adafruit.com/adafruit-motor-shield/af-dcmotor-class
+http://sribasu.com/programming-tutorials/creating-an-obstacle-avoiding-robot-with-arduino-adafruit-motor-shield-v1-and-ultra-sonic-sensor.html
+https://www.tutorialspoint.com/arduino/arduino_ultrasonic_sensor.htm
