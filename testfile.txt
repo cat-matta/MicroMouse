@@ -1,5 +1,8 @@
 Resources:
 
+
+MAKE SURE you download the AdaFruit DC motor library & the New Ping library in order for the motors and the sensors to work
+
 Main file was gettign too cumbersome, so I added the links here:
 
 https://learn.adafruit.com/adafruit-motor-shield/using-dc-motors
